@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.2)),
+        url(https://wallpapers.com/images/high/cupcakes-and-donuts-breakfast-xbvcxmxta3t12vop.webp);
+        background-size: cover;
+        font-family: sans-serif;
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+        /* background:white; */
+        color: rgb(253, 252, 252);
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: sans-serif;
+
+    }
+    .logo{
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        padding:10px 20px;
+    }
+    .register a{
+        text-decoration: none;
+        color: white;
+        padding:10px 20px;
+        background-color:rgb(27, 27, 230);
+        border-radius: 8px;
+    }
+    .h-text{
+        max-width: 650px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: rgb(243, 243, 245);
+    }
+    .h-text span{
+        letter-spacing: 5px;
+    }
+    .h-text h1{
+        font-size: 3.5em;
+    }
+    .h-text a{
+        text-decoration: none;
+        background: rgb(7, 124, 242);
+        color:white;
+        padding: 10px 20px;
+        letter-spacing: 5px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                FOODIE.COM
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Restaurants</a>
+                <a href="#">Orders</a>
+                <a href="#">Great offers</a>
+                <a href="#">Location</a>
+                <a href="#">Delivery Details</a>
+                <a href="#"> Online order help</a>
+                <a href="#"> Dining</a>
+            </div>
+            <div class="search food">
+            <input class="control" part="control" type="search" id="q" title="Enter your search term" name="q" aria-label="Enter your search term" placeholder="Search the food" autocomplete="off" maxlength="250" data-t="{&quot;n&quot;:&quot;search_Food&quot;,&quot;t&quot;:9,&quot;a&quot;:&quot;submit&quot;,&quot;b&quot;:50,&quot;c.t&quot;:30}">
+            </div>
+        </nav>
+        <section class="h-text">
+            
+            <h1>Eat you like</h1>
+
+            <br>
+            <a href="#">Oder Now</a>
+        </section>
+    </header>
+</body>
+</html>
